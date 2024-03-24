@@ -1,0 +1,34 @@
+
+
+server:
+   port: 2009
+   
+   
+   
+   
+spring:
+   datasource:
+      url: jdbc:mysql://localhost:3306/exel_data?useSSL=false&&allowPublicKeyRetrieval=true
+      username: root
+      password: StrangeVin@1000
+      driver-class-name: com.mysql.cj.jdbc.Driver
+   jpa:
+      database-platform: org.hibernate.dialect.MySQLDialect
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+     
+      
+   servlet:
+      multipart:
+         max-file-size: 3MB
+         max-request-size: 3MB
+         
+   
+   boot:
+      tutorial:
+         var1: F:\\Work\\Spring Boot\\ExelTest\\n1\\demoService\\demoService\\exel2.xlsx
+   
+   
+   
+   
