@@ -28,6 +28,7 @@ spring:
    boot:
       tutorial:
          var1: F:\\Work\\Spring Boot\\ExelTest\\n1\\demoService\\demoService\\exel2.xlsx
+         var: anything
    
    
    
